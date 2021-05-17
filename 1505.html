@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="1505.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id = "demo">My name is srinivasan. <br> I am 56 years old.</p>
+    <script src="1505.js"></script> 
+</body>
+</html>
+
+p {
+    font-size:35px;
+    font-family: Arial, Helvetica, sans-serif;  
+    background-color: chocolate;
+}
+body {
+    font-size:35px;
+}
+
+document.getElementById("demo").textContent = ("Hello World");
+function add(x,y){
+    document.write('The sum of ',x, 'and ', y, ' is ', (x+y), '.')
+}
+add(5,4)
+document.write('<br>')
+document.body.style.color = 'blueviolet'
+
+var ansa = window.prompt("enter your name");
+document.write("Your name is ", ansa);
+document.write('<br>')
+var ansas = window.prompt('enter your age');
+var ansass = parseInt(ansas);
+document.write('Your age is ', ansass)
